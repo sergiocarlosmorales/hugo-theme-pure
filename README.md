@@ -1,52 +1,36 @@
 # hugo-theme-pure
 
-A port of [hexo-theme-pure](https://github.com/cofess/hexo-theme-pure) for Hugo. Powerful & Clean. [Iconfont](http://blog.cofess.com/hexo-theme-pure/iconfont/demo_fontclass.html)
-
-[简体中文](README-ZH.md)
-
-## Contribute
-
-Since I mainly do back-end development, I don’t know anything about the front-end (`CSS` or something). It’s a hard-hitting transplant. Some of the features that I like very much don’t know how to add it. It’s a waste of time to study too long, so If you have a very good `feature` and hope to put it up, it would be best.
-
-The file structure of `repo` is roughly referred to [hexo-theme-pure](https://github.com/cofess/hexo-theme-pure) and should be clearer. It can be modified according to your needs. If you look at the file structure a little, you will find that the function has not been implemented.
+This is a port of [this theme](https://github.com/xiaoheiAh/hugo-theme-pure), which is a port of another port.
+Turtles all the  way down.
 
 ## Screenshots
 
-![](https://raw.githubusercontent.com/xiaoheiAh/hugo-theme-pure/master/images/grey.png)
+![](https://raw.githubusercontent.com/sergiocarlosmorales/hugo-theme-pure/master/images/grey.png)
 
-![](https://raw.githubusercontent.com/xiaoheiAh/hugo-theme-pure/master/images/black.png)
+![](https://raw.githubusercontent.com/sergiocarlosmorales/hugo-theme-pure/master/images/black.png)
 
-![](https://raw.githubusercontent.com/xiaoheiAh/hugo-theme-pure/master/images/blue.png)
+![](https://raw.githubusercontent.com/sergiocarlosmorales/hugo-theme-pure/master/images/blue.png)
 
-![](https://raw.githubusercontent.com/xiaoheiAh/hugo-theme-pure/master/images/green.png)
+![](https://raw.githubusercontent.com/sergiocarlosmorales/hugo-theme-pure/master/images/green.png)
 
-![](https://raw.githubusercontent.com/xiaoheiAh/hugo-theme-pure/master/images/purple.png)
+![](https://raw.githubusercontent.com/sergiocarlosmorales/hugo-theme-pure/master/images/purple.png)
 
-## Installation
-
-```bash
-$ cd $HUGO_ROOT
-$ git clone https://github.com/xiaoheiAh/hugo-theme-pure themes/pure
-$ ./hugo server -t pure
-```
 
 ### **Note** 
 
-1. Please copy the config.yml under the `exampleSite` folder to the root folder of your Hugo Site. Feel free to change it. If you don't like `.yml` file, you can also convert it to you want.
+1. Please copy the config.yml under the `exampleSite` folder to the root folder of your Hugo Site. Feel free to change it.
 
 2. Your post should under the `posts` folder, like this : `hugo new posts/any.md`
 
 ## Multilingual
 
-Translations are collected from the [`themes/even/i18n/`](https://github.com/olOwOlo/hugo-theme-even/tree/master/i18n) folder (built into the theme), as well as present in `i18n` at your root of project.
+Translations are collected from the [`/i18n/`](https://github.com/sergiocarlosmorales/hugo-theme-pure/tree/master/i18n) folder (built into the theme), as well as present in `i18n` at your root of project.
 
 You can specify `defaultContentLanguage` to use translations.
 
 ```yml
-defaultContentLanguage: zh # en,fr...
+defaultContentLanguage: en # en,fr,es...
 ```
-
-Currently supports English and Chinese, you can see `en.yml` and `zh.yml` under `pure/i18n`. If you want to support other language, you can copy any yml file under `i18n` and rename to new language, then feel free to translate.
 
 ## Favicon & Images
 
@@ -80,17 +64,12 @@ enable toc
 ```
 
 
-
-## TODO
-
-- [x] TOC
-- [ ] pagination
-
 ## License
 
-Released under the [MIT](https://github.com/olOwOlo/hugo-theme-even/blob/master/LICENSE.md) License.
+Released under the [MIT](https://github.com/sergiocarlosmorales/hugo-theme-pure/blob/master/LICENSE) License.
 
 ## Acknowledgements
+- [hugo-theme-pure](https://github.com/xiaoheiAh/hugo-theme-pure)
 
 - [hexo-theme-pure](https://github.com/cofess/hexo-theme-pure)
 
